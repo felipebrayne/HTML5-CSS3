@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    background-color: lightslategrey;
+    width: 300px;
+    height: 300px;
+    padding: 10px 40px;
+    border-radius: 5px 5px;
+    margin: 10px 10px;
+    box-shadow: 2px 2px 2px black;
+}
+
+div:hover{
+    color: red;
+}
+div:hover > p{
+    display: block;
+    color: yellow;
+    background-color: black;
+}
+
+div > p{
+    display: none;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.stream{
+    text-decoration: none;
+    background-color: violet;
+    width: 200px;
+}
+.stream::after{
+    content: '[vem]';
+    background-color: yellow;
+}
+.stream::before{
+    content: '[vem]';
+    background-color: yellow;
+}
+.conteudo:hover{
+    color: black;
+    text-decoration: none;
+}
+.conteudo::after{
+    content: '[leia]';
+    background-color: red;
+}
+.conteudo::before{
+    content: '[leia]';
+    background-color: red;
+}
+.video::after{
+    content: '[veja]';
+    background-color: brown;
+}
+.video::before{
+    content: '[veja]';
+    background-color: brown;
+}
+.video:hover{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+}
+.video:active{
+    background-color: darkorange;
+    width: 100px;
+}
+div#bola{
+    border-radius: 50%;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin: 1px 1px 1px 3px
+}
