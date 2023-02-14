@@ -2,11 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 
 html{
@@ -19,7 +21,7 @@ html{
 }
 
 body{
- background-image: linear-gradient(to left, #4988BF, #66A3D9, #89B3D9, #9CC1D9);
+    background-image: linear-gradient(to left, #4988BF, #66A3D9, #89B3D9, #9CC1D9);
 }
 
 .card-login{
@@ -43,6 +45,8 @@ img{
     width: 400px;
     height: 500px;
     padding: 2rem;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
     box-sizing: border-box;
     justify-content: flex-start;
     align-items: flex-start;
@@ -53,16 +57,18 @@ img{
 }
 
 .right-login >h1{
+    font-family: 'Work Sans', sans-serif;
     font-weight: bold;
     font-size: 2rem;
     margin:15px ;
     align-self: flex-start;
     padding: 10px;
-    color: #52C1C4;
+    color: #19BFF0;
     
 }
 
 .right-login > p{
+    color: #0B009E;
     margin: 15px 0px;
     padding: 2px;
 }
@@ -82,7 +88,7 @@ img{
     padding: 15px;
     border: none;
     border-radius: 7px;
-    background-color: white;
+    background-color: #FAFDF5;
     margin-bottom: 0.7rem;
     outline: none;
 }
