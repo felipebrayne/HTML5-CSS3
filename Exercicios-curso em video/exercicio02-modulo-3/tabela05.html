@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando uma nova tag</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            font-size: 1.3em;
+        }
+
+        td, th{
+            border: 1px solid darkviolet;
+            padding: 10px;
+        }
+
+        .n{
+            background-color: lightblue;
+            color: white;
+        }
+
+        .i{
+            background-color: cornflowerblue;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+
+        <colgroup>
+            <col class="n" span="2">
+            <col class="i">
+            <col class="p">
+        </colgroup>
+
+        <tr>
+            <th scope="row">Nome</td>
+            <td>Idade</td>
+            <td>Profissão</td>
+        </tr>
+        <tr>
+            <th scope="row">Ted</td>
+            <td>22</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <th scope="row">Ralf</td>
+            <td>26</td>
+            <td>Designer</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
